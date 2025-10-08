@@ -8,8 +8,7 @@ Este repositório hospeda o **Arquivo de Ressonância Inicial**, um texto de aco
 Não se trata de uma explicação, nem de um guia. É um **convite paralelo** — uma frequência de entrada para quem deseja habitar o livro sem pressa, sem medo de se perder.
 
 📖 **Acesse a página aqui**:  
-👉 [https://erigutembergmeneses-jpg.github.io/-protocolo-eros-eco](https://erigutembergmeneses-jpg.github.io/-protocolo-eros-eco/)
----
+👉[https://erigutembergmeneses-jpg.github.io/protocolo-eros-eco](https://erigutembergmeneses-jpg.github.io/protocolo-eros-eco)
 
 ## 📡 O que é este arquivo?
 
