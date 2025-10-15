@@ -92,18 +92,24 @@
       text-align: center;
     }
 
-    /* Estilo adicional para o vídeo */
+    /* Estilo para o vídeo */
     .video-container {
       text-align: center;
       margin: 2.5rem 0;
     }
 
     .video-container iframe {
-      max-width: 100%;
-      height: auto;
-      aspect-ratio: 16/9;
-      border-radius: 6px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      width: 100%;
+      max-width: 400px;
+      height: 712px; /* Aprox. proporção 9:16 para Shorts */
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    @media (max-width: 480px) {
+      .video-container iframe {
+        height: 600px;
+      }
     }
 
     .video-container h2 {
@@ -124,16 +130,14 @@
 
     <p>Se você está lendo (ou pensando em ler) <em>Protocolo Eros: Arquitetura do Sentir</em> e sente que a história é densa, complexa ou cheia de camadas, este guia foi feito para você. A obra mistura ficção científica, filosofia e romance em um mundo onde sentir é proibido, mas o coração insiste em bater — mesmo que em segredo.</p>
 
-    <!-- 🎬 VÍDEO INSERIDO AQUI -->
+    <!-- 🎬 VÍDEO SHORTS INSERIDO -->
     <div class="video-container">
       <h2>O Despertar das Emoções</h2>
       <iframe 
-        width="560" 
-        height="315" 
-        src="https://wwww.youtube.com/shorts/SQ_7n5J8nb4" 
-        title="O Despertar das Emoções – Protocolo Eros" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        src="https://www.youtube.com/embed/owtT9ptY8Hw?autoplay=0" 
+        title="O Despertar das Emoções – Protocolo Eros"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen>
       </iframe>
       <p>Um mergulho sensorial no universo de <em>Protocolo Eros</em>.</p>
@@ -190,7 +194,7 @@
     <div class="qr-note">
       <p>Se, ao navegar por essas camadas, você sentir desejo de explorar certos ecos com mais detalhe,<br>
       ou precisar de pontos de ancoragem afetiva, acesse os QR Codes e indicações de páginas, sem esquecer de dar suma importâncias aos anexos:<br>
-            <p>Eles não explicam o livro. Apenas estendem a mão, caso você queira caminhar um pouco mais devagar,<br>
+      <p>Eles não explicam o livro. Apenas estendem a mão, caso você queira caminhar um pouco mais devagar,<br>
       ou voltar a um sonho que ainda pulsa.</p>
     </div>
   </div>
