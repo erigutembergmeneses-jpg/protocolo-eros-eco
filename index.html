@@ -101,9 +101,10 @@
     .video-container iframe {
       width: 100%;
       max-width: 400px;
-      height: 712px; /* Aprox. proporção 9:16 para Shorts */
+      height: 712px; /* Aprox. proporção 9:16 */
       border-radius: 12px;
       box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+      background: #000;
     }
 
     @media (max-width: 480px) {
@@ -130,16 +131,17 @@
 
     <p>Se você está lendo (ou pensando em ler) <em>Protocolo Eros: Arquitetura do Sentir</em> e sente que a história é densa, complexa ou cheia de camadas, este guia foi feito para você. A obra mistura ficção científica, filosofia e romance em um mundo onde sentir é proibido, mas o coração insiste em bater — mesmo que em segredo.</p>
 
-    <!-- 🎬 VÍDEO SHORTS INSERIDO CORRETAMENTE -->
+    <!-- 🎬 VÍDEO HOSPEDADO NO INTERNET ARCHIVE -->
     <div class="video-container">
       <h2>O Despertar das Emoções</h2>
-      <iframe 
-        src="https://player.vimeo.com/video/1127589584"
+      <iframe
+        src="https://archive.org/embed/o-despertar-das-emocoes"
         title="O Despertar das Emoções – Protocolo Eros"
         frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen>
-      </iframe>
+        allowfullscreen
+        webkitallowfullscreen
+        mozallowfullscreen
+      ></iframe>
       <p>Um mergulho sensorial no universo de <em>Protocolo Eros</em>.</p>
     </div>
 
@@ -193,10 +195,8 @@
 
     <div class="qr-note">
       <p>Se, ao navegar por essas camadas, você sentir desejo de explorar certos ecos com mais detalhe,<br>
-      ou precisar de pontos de ancoragem afetiva, acesse os QR Codes e indicações de páginas, sem esquecer de dar suma importâncias aos anexos:<br>
+      ou precisar de pontos de ancoragem afetiva, acesse os QR Codes e indicações de páginas, sem esquecer de dar suma importância aos anexos:<br>
       <p>Eles não explicam o livro. Apenas estendem a mão, caso você queira caminhar um pouco mais devagar,<br>
       ou voltar a um sonho que ainda pulsa.</p>
     </div>
   </div>
-</body>
-</html>
